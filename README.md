@@ -1,24 +1,31 @@
+# Restaurant Review System
 
-Restaurant Review System
 This project is a restaurant review system built using NestJS, TypeORM, PostgreSQL, and other technologies. It allows users to sign up, log in, and leave reviews for restaurants and their menu items. Restaurant owners can respond to reviews, and administrators have access to manage users, restaurants, and reviews.
 
-Features
-User Authentication: Users can sign up, log in.
-Role-based Access Control: Different roles (user, owner, admin) have different permissions.
-Restaurant Management: Owners can create and manage restaurants and their menu items.
-Review System: Users can leave reviews for restaurants and menu items. Owners can respond to reviews.
-Admin Panel: Administrators have access to manage users, restaurants, and reviews.
-Technologies Used
-NestJS: A framework for building efficient, reliable, and scalable server-side applications.
-TypeORM: An ORM for TypeScript and JavaScript.
-PostgreSQL: A powerful, open-source object-relational database system.
-JWT (JSON Web Tokens): Used for authentication and authorization.
-Bcrypt: Used for hashing passwords for security.
-Swagger: Used for API documentation.
-Postman: Used for testing APIs.
-PGAdmin: A PostgreSQL administration and development tool.
-Setup Instructions
-Clone the repository:
+## Features
+
+- User Authentication: Users can sign up, log in.
+- Role-based Access Control: Different roles (user, owner, admin) have different permissions.
+- Restaurant Management: Owners can create and manage restaurants and their menu items.
+- Review System: Users can leave reviews for restaurants and menu items. Owners can respond to reviews.
+- Admin Panel: Administrators have access to manage users, restaurants, and reviews.
+
+## Technologies Used
+
+- NestJS: A framework for building efficient, reliable, and scalable server-side applications.
+- TypeORM: An ORM for TypeScript and JavaScript.
+- PostgreSQL: A powerful, open-source object-relational database system.
+- JWT (JSON Web Tokens): Used for authentication and authorization.
+- Bcrypt: Used for hashing passwords for security.
+- Swagger: Used for API documentation.
+- Postman: Used for testing APIs.
+- PGAdmin: A PostgreSQL administration and development tool.
+
+## Setup Instructions
+
+1. Clone the repository:
+
+```bash
 git clone <repository-url>
 
 ## Dependencies
